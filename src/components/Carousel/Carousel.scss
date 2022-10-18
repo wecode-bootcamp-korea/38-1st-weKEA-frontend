@@ -1,0 +1,59 @@
+.carousel-container {
+  border: 2px green solid;
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  margin: 10px;
+
+  .button-common-css {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 47%;
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-size: 30px;
+    border: none;
+  }
+  .button-common-css:hover {
+    background-color: gray;
+  }
+  .carousel-button-right {
+    right: 100px;
+  }
+
+  .carousel-button-left {
+    left: 100px;
+  }
+
+  .carousel {
+    display: flex;
+
+    border: 1px solid red;
+    width: 1200px;
+    height: 500px;
+    overflow-y: hidden;
+
+    .item-map-container {
+      display: flex;
+      align-items: center;
+      .carousel-item {
+        margin: 5px;
+        border: 1px solid blue;
+        width: 389px;
+        height: 400px;
+      }
+    }
+  }
+  .carousel::-webkit-scrollbar {
+    height: 2px; /* 스크롤바의 너비 */
+  }
+  .carousel::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+  .carousel::-webkit-scrollbar-thumb {
+    background: linear-gradient(#000000, #000000);
+    border-radius: 25px;
+  }
+}
