@@ -15,6 +15,7 @@
     border-radius: 40px;
     font-size: 30px;
     border: none;
+    z-index: 1;
   }
   .button-common-css:hover {
     background-color: gray;
@@ -29,7 +30,7 @@
 
   .carousel {
     display: flex;
-
+    position: absolute;
     border: 1px solid red;
     width: 1200px;
     height: 500px;
@@ -37,17 +38,19 @@
 
     .item-map-container {
       display: flex;
+      position: relative;
       align-items: center;
       .carousel-item {
         margin: 5px;
         border: 1px solid blue;
         width: 389px;
         height: 400px;
+        // position: relative;
       }
     }
   }
   .carousel::-webkit-scrollbar {
-    height: 2px; /* 스크롤바의 너비 */
+    height: 2px;
   }
   .carousel::-webkit-scrollbar-track {
     background-color: #ffffff;
