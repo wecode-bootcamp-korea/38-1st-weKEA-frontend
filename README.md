@@ -15,7 +15,19 @@
 - Front-End : [김도영](https://github.com/doyoungkim1994), [김솔(PM)](https://github.com/Solrasido55), [양동선](https://github.com/yangseon3)
 - Back-End : [김희연](https://github.com/Cein1), [이찬우](https://github.com/c0zyb1ue), [정해만](https://github.com/haemong)
 
-# 티켓
+# 담당 티켓
+
+## 김솔(PM)
+
+-> `Detail Page`,`Cart`, `Wishlist`, `Nav Bar`
+
+## 김도영
+
+-> `Main Page`, `List Page`, `Footer`, `Purchase History`
+
+## 양동선
+
+-> `Login`, `Sign up`, `My page`, `Alert Modal`
 
 # 적용 기술
 
@@ -40,7 +52,10 @@
 ## Nav
 
 - 로그인 여부에 따른 레이아웃 변화
+
+<br>
   <img width="228" alt="스크린샷 2022-10-28 오후 5 50 27" src="https://user-images.githubusercontent.com/106805946/198546371-fe33a401-13aa-47d0-aee3-159a4f92bd0c.png">
+  <br>
   <img width="196" alt="스크린샷 2022-10-28 오후 5 48 56" src="https://user-images.githubusercontent.com/106805946/198546063-61f68e4b-5b97-4357-80de-d8e36695d226.png">
   <img width="480" alt="스크린샷 2022-10-28 오후 5 49 19" src="https://user-images.githubusercontent.com/106805946/198546091-1a8b5af8-6581-4f0a-b80a-2fe7a245150b.png">
   <img width="478" alt="스크린샷 2022-10-28 오후 5 50 47" src="https://user-images.githubusercontent.com/106805946/198546388-c99d6908-22fe-4866-b3fe-7087b4082aa1.png">
